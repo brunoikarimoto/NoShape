@@ -1,0 +1,54 @@
+#registro {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 40px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+  line-height: 10px;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button.submit {
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 15px;
+  width: fit-content;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+#erro {
+  margin-top: 10px;
+  background-color: rgb(228, 105, 105);
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid red;
+}

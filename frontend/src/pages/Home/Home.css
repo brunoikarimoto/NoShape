@@ -1,0 +1,54 @@
+#treinos {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+ul {
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  width: 25%;
+  min-height: 40px;
+}
+
+.treino {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  padding: 5px 7px;
+}
+
+.nomeTreino:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.deletar,
+.editar {
+  border: none;
+  font-weight: 600;
+  padding: 5px 7px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.deletar {
+  background-color: red;
+}
+
+.editar {
+  background-color: gray;
+}
+
+.novoTreino {
+  background-color: gray;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+}

@@ -1,0 +1,16 @@
+.notFound {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.voltar {
+  cursor: pointer;
+  background-color: rgb(233, 61, 233);
+  border-radius: 5px;
+  padding: 7px 10px;
+}

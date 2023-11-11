@@ -1,0 +1,19 @@
+#exercicios {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.listaExercicios {
+  width: 90%;
+}
+
+.listaExercicios li {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 5px 7px;
+}
